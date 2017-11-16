@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.vishal.pannuskitchen.R1"
+    android:background="@drawable/c3">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/r1"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MRP : Rs. 299"
+        android:id="@+id/textView12"
+        android:textColor="#bcbaba"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Selling Price : "
+        android:id="@+id/textView13"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Amira Daily Fresh Basmati Rice 5 kg"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rs. 249"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView12"
+        android:layout_toRightOf="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton8"
+        android:src="@drawable/cart"
+        android:background="#783737"
+        android:layout_marginTop="130dp"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Quantity : "
+        android:id="@+id/textView16"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toLeftOf="@+id/imageButton8"
+        android:layout_toStartOf="@+id/imageButton8" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:background="#ffffff"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+</ScrollView>

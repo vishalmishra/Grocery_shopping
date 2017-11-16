@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_Myaccount"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/action_Myaccount"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Myorders"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_get"
+        android:title="@string/action_Myorders"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Manual"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_get"
+        android:title="@string/action_Manual"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Contact"
+        android:orderInCategory="100"
+        android:title="About Us"
+        android:icon="@drawable/ic_action_call"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_developer"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        android:icon="@drawable/ic_action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:icon="@drawable/cart"
+        app:showAsAction="always" />
+</menu>

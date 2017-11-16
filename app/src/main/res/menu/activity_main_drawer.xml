@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single" />
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item android:title="Categories"><menu>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Rice" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Spices" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Baby Care" />
+        <item
+            android:id="@+id/nav_bodycare"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Body Care" />
+        <item
+            android:id="@+id/nav_household"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Household" />
+        <item
+            android:id="@+id/nav_brandedfood"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Branded Food"/>
+        <item
+            android:id="@+id/nav_dryfruits"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Dry Fruits" />
+        <item
+            android:id="@+id/nav_co"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Cooking Oil" />
+    </menu>
+
+</item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

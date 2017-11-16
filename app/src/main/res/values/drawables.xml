@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_get" type="drawable">@android:drawable/ic_input_get</item>
+    <item name="stat_sys_phone_call" type="drawable">@android:drawable/stat_sys_phone_call</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

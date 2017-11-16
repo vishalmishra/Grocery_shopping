@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vishal.pannuskitchen">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/page_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyAccount"
+            android:label="My Account">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.MyAccount" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rice"
+            android:label="Rice">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.Rice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="About Us">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.Contact" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyOrders"
+            android:label="My Orders">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.MyOrders" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutD"
+            android:label="About Developer">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.AboutD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".R1"
+            android:label="Rice Categories">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.R1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".email">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.email" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cart"
+            android:label="Cart">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.Cart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderCart"
+            android:label="Order">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.OrderCart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup"
+            android:label="Sign Up">
+            <intent-filter>
+                <action android:name="com.example.vishal.pannuskitchen.Signup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
